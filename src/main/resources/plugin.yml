@@ -1,0 +1,4 @@
+name: LamadTime
+version: '${project.version}'
+main: dev.pickingname.lamadtime.LamadTime
+api-version: 1.19

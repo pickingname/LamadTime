@@ -1,0 +1,4 @@
+name: LamadTime
+version: '1.1'
+main: dev.pickingname.lamadtime.LamadTime
+api-version: 1.19
