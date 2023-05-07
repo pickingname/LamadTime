@@ -71,11 +71,4 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub OWNER Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/pickingname/LamadTime</url>
-        </repository>
-    </distributionManagement>
 </project>
