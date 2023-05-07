@@ -3,6 +3,7 @@ package dev.pickingname.lamadtime;
 import org.bukkit.Bukkit;
 import org.bukkit.Sound;
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
 import org.bukkit.plugin.java.JavaPlugin;
     
 import java.util.Objects;
@@ -17,7 +18,7 @@ public final class LamadTime extends JavaPlugin {
 
         int prod = 1;
 
-        String ver = "1.1_release4_build10";
+        String ver = "1.1_release5_build12_untested";
         String vname = ver + "_DEV";
         String channel = "Dev";
         if (prod == 1) { // is a release
@@ -36,8 +37,7 @@ public final class LamadTime extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage("§a[lamadtime] color of the lamad text is from google bard again!!!!!!!");
         Bukkit.getConsoleSender().sendMessage("§a[lamadtime] contact pickingname for bug reports");
         Bukkit.getConsoleSender().sendMessage("§a[lamadtime] pickingname#3117");
-
-
+        getServer().getPluginManager().registerEvents(new onPlayerSleep(), this); // start the on player sleep handler thing
         // Schedule the task to run every 20 ticks (1 second)
         int taskId = Bukkit.getScheduler().scheduleSyncRepeatingTask(this, new Runnable() {
             @Override
