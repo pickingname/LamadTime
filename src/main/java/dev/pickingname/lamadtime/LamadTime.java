@@ -37,7 +37,7 @@ public final class LamadTime extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage("§a[lamadtime] color of the lamad text is from google bard again!!!!!!!");
         Bukkit.getConsoleSender().sendMessage("§a[lamadtime] contact pickingname for bug reports");
         Bukkit.getConsoleSender().sendMessage("§a[lamadtime] pickingname#3117");
-        getServer().getPluginManager().registerEvents(new onPlayerSleep(), this); // start the on player sleep handler thing
+        Bukkit.getConsoleSender().sendMessage("§a[lamadtime] The sleep handler is removed btw, if you want that, see older builds that have this feature"); // start the on player sleep handler thing
         // Schedule the task to run every 20 ticks (1 second)
         int taskId = Bukkit.getScheduler().scheduleSyncRepeatingTask(this, new Runnable() {
             @Override
