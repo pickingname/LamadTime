@@ -1,6 +1,6 @@
 # LamadTime
-website coming soon
-
+the times are hard coded btw
+<br>
 > see the release tab on your right and download the .jar one
 
 > or if you want the latest build go to target folder yk
