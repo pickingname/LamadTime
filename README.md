@@ -1,5 +1,5 @@
 # LamadTime
-the times are hard coded btw
+the times are hard coded btw and im not that good at java
 <br>
 > see the release tab on your right and download the .jar one
 
